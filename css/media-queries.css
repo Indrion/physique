@@ -1,0 +1,63 @@
+
+
+
+
+@media only screen and (max-width: 767px) {
+   header, .logo, .search, .btn{
+        float: none;
+        width: auto;
+        /*margin: 10px;*/
+        /* box-sizing: border-box; */
+        text-align: center;
+    }
+    header{
+        background-color: black;
+    }
+    header .container .logo{
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    header .container .search{
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    header .container .search input{
+        float: none;
+        width: auto;
+        text-align: center
+    }
+    header .container .search button:after{
+        float: none;
+        width: auto;
+        text-align: center
+    }
+    header .container .btn{
+        float: none;
+        width: auto;
+        text-align: center
+    }
+    .container{
+
+        border: none;
+    }
+    .social_icon{
+        display: block;
+        /*float: none;*/
+        float: bottom;
+        text-align: center;
+        width: auto;
+    }
+    ul{
+        display: block;
+    }
+
+    ul li{
+        float: none;
+    }
+    .photo{
+        display: none;
+    }
+
+}
